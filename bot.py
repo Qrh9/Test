@@ -9,3 +9,11 @@ async def start(event):
     sender = await event.get_sender()
     sender_id = sender.id
     await event.reply('هلو')#(
+    
+print ("gays")
+
+def main():
+    bot.run_until_disconnected()
+
+if __name__ == '__main__':
+    main()
